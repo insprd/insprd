@@ -1,3 +1,3 @@
 ### Matt Legrand
 
-#### Design founder and leader with expertise in [digital health](https://legrand.design/gocap), [biotechnology hardware](https://legrand.design/gocap), [design systems](https://legrand.design/bubble), and [no-code tools](https://legrand.design/bubble).
+#### Design founder & leader with expertise building products in developer intelligence, collaborative software, digital health, design systems, and no-code tools.
