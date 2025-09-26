@@ -55,7 +55,7 @@ def get_work_items() -> List[Dict[str, str]]:
 def get_recent_posts() -> List[Dict[str, str]]:
     """Fetch recent posts from Mastodon API"""
     try:
-        response = requests.get(POSTS_API_URL, params={'limit': 5})
+        response = requests.get(POSTS_API_URL, params={'limit': 10})
         if response.status_code != 200:
             print(f"Error fetching posts: {response.status_code}")
             return []
