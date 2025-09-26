@@ -157,7 +157,7 @@ def update_readme():
     )
 
     # Update last updated timestamp
-    now = datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
+    now = datetime.now().strftime('%B %d, %Y at %I:%M %p UTC')
     content = re.sub(
         r'<!-- last_updated starts -->.*?<!-- last_updated ends -->',
         f'<!-- last_updated starts -->{now}<!-- last_updated ends -->',

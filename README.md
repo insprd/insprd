@@ -11,7 +11,6 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent work
 
 <!-- work starts -->
-
 - **[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
   - How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
 - **[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
@@ -22,7 +21,7 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
   - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
 - **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
   - Bubble is the world’s only full-stack, no-code platform.
-  <!-- work ends -->
+<!-- work ends -->
 
 </td>
 <td width="35%" valign="top">
@@ -30,7 +29,6 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent posts
 
 <!-- posts starts -->
-
 - We outside - June 30, 2025 - [View post](https://posts.legrand.design/@matt/114773605831608980)
 - Remote agents: available now. - June 05, 2025 - [View post](https://posts.legrand.design/@matt/114631700485834897)
 - You can just fix things - June 01, 2025 - [View post](https://posts.legrand.design/@matt/114609786711067320)
@@ -44,4 +42,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-_This README is automatically updated using GitHub Actions. Last updated: <!-- last_updated starts -->2025-09-26 00:15:31 UTC<!-- last_updated ends -->_
+Updated <!-- last_updated starts -->September 26, 2025 at 12:21 AM UTC<!-- last_updated ends --> via GitHub Actions
