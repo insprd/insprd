@@ -6,12 +6,12 @@ import json
 import requests
 from datetime import datetime
 from typing import List, Dict, Any
-from bs4 import BeautifulSoup
+
 
 # Configuration
 GITHUB_USERNAME = 'insprd'
 WORK_FEED_URL = 'https://legrand.design/feed.json'
-POSTS_API_URL = 'https://posts.legrand.design/api/v1/accounts/110675830643979741/statuses'
+POSTS_FEED_URL = 'https://legrand.design/posts/feed.json'
 README_FILE = 'README.md'
 
 def get_work_items() -> List[Dict[str, str]]:
@@ -46,41 +46,40 @@ def get_work_items() -> List[Dict[str, str]]:
         return []
 
 def get_recent_posts() -> List[Dict[str, str]]:
-    """Fetch recent posts from Mastodon API"""
+    """Fetch recent posts from JSON feed"""
     try:
-        response = requests.get(POSTS_API_URL, params={'limit': 20})
+        response = requests.get(POSTS_FEED_URL)
         if response.status_code != 200:
-            print(f"Error fetching posts: {response.status_code}")
+            print(f"Error fetching posts feed: {response.status_code}")
             return []
 
-        posts_data = response.json()
+        feed_data = response.json()
         posts = []
 
-        for post in posts_data:
-            # Skip replies (posts that have in_reply_to_id)
-            if post.get('in_reply_to_id'):
-                continue
+        # Parse JSON feed items
+        for item in feed_data.get('items', []):
+            title = item.get('title', '')
+            summary = item.get('summary', '')
+            date_published = item.get('date_published', '')
+            url = item.get('url', '')
 
-            # Parse the HTML content to get plain text
-            soup = BeautifulSoup(post.get('content', ''), 'html.parser')
-            content = soup.get_text(strip=True)
+            # Use title if available, otherwise use summary
+            content = title if title else summary
 
             # Truncate content if too long
             if len(content) > 150:
                 content = content[:147] + '...'
 
-            created_at = post.get('created_at', '')
-            post_url = post.get('url', '')
+            if content and url:
+                posts.append({
+                    'content': content,
+                    'date': date_published,
+                    'url': url
+                })
 
-            posts.append({
-                'content': content,
-                'date': created_at,
-                'url': post_url
-            })
-
-            # Limit to 7 posts
-            if len(posts) >= 7:
-                break
+                # Limit to 7 posts
+                if len(posts) >= 7:
+                    break
 
         return posts
     except Exception as e:
