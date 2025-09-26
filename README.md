@@ -6,39 +6,36 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="65%" valign="top">
 
 ## Recent work
 
 <!-- work starts -->
-- **[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
-  - How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
-- **[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
-  - Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
-- **[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
-  - Today, comparatively few people build software the rest of the world uses.
-- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
-  - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
-- **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
-  - Bubble is the world’s only full-stack, no-code platform.
+**[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
+How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
+**[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
+Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
+**[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
+Today, comparatively few people build software the rest of the world uses.
+**[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
+How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
+**[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
+Bubble is the world’s only full-stack, no-code platform.
 <!-- work ends -->
 
 </td>
-<td width="50%" valign="top">
+<td width="35%" valign="top">
 
 ## Recent posts
 
 <!-- posts starts -->
 - We outside - June 30, 2025 - [View post](https://posts.legrand.design/@matt/114773605831608980)
 - Remote agents: available now. - June 05, 2025 - [View post](https://posts.legrand.design/@matt/114631700485834897)
-- Augment* can just fix things - June 01, 2025 - [View post](https://posts.legrand.design/@matt/114610310172580967)
 - You can just fix things - June 01, 2025 - [View post](https://posts.legrand.design/@matt/114609786711067320)
 - This is how I like to interact with AI chat. Not a linearly, but with parallel responses and blended context.Great for brainstorming, trying differ... - May 30, 2025 - [View post](https://posts.legrand.design/@matt/114597543461030436)
 - Using MCP in Augment to go from Figma config to production-ready components automatically: - May 12, 2025 - [View post](https://posts.legrand.design/@matt/114495579180888218)
 - The only thing more powerful than our IDE agent is ∞ agents.https://augment.new - May 07, 2025 - [View post](https://posts.legrand.design/@matt/114467759412021813)
 - Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://posts.legrand.design/@matt/114039861222675691)
-- Cursor Tab needs a lot more intervention to make changes, and the user has to move their cursor to relevant parts of the code to get suggestions. - February 21, 2025 - [View post](https://posts.legrand.design/@matt/114039796445356928)
-- Next Edit finds and fixes changes without the user needing to move their cursor to each relevant area. - February 20, 2025 - [View post](https://posts.legrand.design/@matt/114037728412242028)
 <!-- posts ends -->
 
 </td>
@@ -47,4 +44,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 
 ---
 
-_This README is automatically updated using GitHub Actions. Last updated: <!-- last_updated starts -->2025-09-26 00:05:53 UTC<!-- last_updated ends -->_
+_This README is automatically updated using GitHub Actions. Last updated: <!-- last_updated starts -->2025-09-26 00:13:11 UTC<!-- last_updated ends -->_

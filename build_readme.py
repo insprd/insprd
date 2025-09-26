@@ -55,7 +55,7 @@ def get_work_items() -> List[Dict[str, str]]:
 def get_recent_posts() -> List[Dict[str, str]]:
     """Fetch recent posts from Mastodon API"""
     try:
-        response = requests.get(POSTS_API_URL, params={'limit': 10})
+        response = requests.get(POSTS_API_URL, params={'limit': 20})
         if response.status_code != 200:
             print(f"Error fetching posts: {response.status_code}")
             return []
@@ -64,6 +64,10 @@ def get_recent_posts() -> List[Dict[str, str]]:
         posts = []
 
         for post in posts_data:
+            # Skip replies (posts that have in_reply_to_id)
+            if post.get('in_reply_to_id'):
+                continue
+
             # Parse the HTML content to get plain text
             soup = BeautifulSoup(post.get('content', ''), 'html.parser')
             content = soup.get_text(strip=True)
@@ -80,6 +84,10 @@ def get_recent_posts() -> List[Dict[str, str]]:
                 'date': created_at,
                 'url': post_url
             })
+
+            # Limit to 7 posts
+            if len(posts) >= 7:
+                break
 
         return posts
     except Exception as e:
@@ -110,12 +118,12 @@ def update_readme():
     # Format work items
     work_md = ""
     for item in work_items:
-        work_md += f"- **[{item['title']}]({item['url']})**"
+        work_md += f"**[{item['title']}]({item['url']})**"
         if item['date']:
             work_md += f" - {format_date(item['date'])}"
         work_md += "\n"
         if item['description']:
-            work_md += f"  - {item['description']}\n"
+            work_md += f"{item['description']}\n"
 
     if not work_md:
         work_md = "No work items found.\n"
