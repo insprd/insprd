@@ -23,6 +23,8 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
   - Bubble is the world’s only full-stack, no-code platform.
 - **[How we built Gocap: data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
   - Common Sensing succeeded in bringing a novel smart hardware device from concept to market in a difficult space.
+
+[RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)
 <!-- work ends -->
 
 </td>
@@ -38,10 +40,12 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 - Using MCP in Augment to go from Figma config to production-ready components automatically: - May 12, 2025 - [View post](https://legrand.design/posts/using-mcp-in-augment-to-go-from-figma-config-to-pr-114495579180888218)
 - The only thing more powerful than our IDE agent is ∞ agents. https://augment.new - May 07, 2025 - [View post](https://legrand.design/posts/the-only-thing-more-powerful-than-our-ide-agent-is-114467759412021813)
 - Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://legrand.design/posts/theos-overview-of-augment-demoing-the-context-engi-114039861222675691)
+
+[RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)
 <!-- posts ends -->
 
 </td>
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->September 26, 2025 at 09:35 AM UTC<!-- last_updated ends --> via GitHub Actions
+Updated <!-- last_updated starts -->September 26, 2025 at 09:41 AM UTC<!-- last_updated ends --> via GitHub Actions

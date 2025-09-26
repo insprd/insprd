@@ -127,6 +127,9 @@ def update_readme():
     if not work_md:
         work_md = "No work items found.\n"
 
+    # Add feed links for work
+    work_md += "\n[RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)\n"
+
     # Format posts
     posts_md = ""
     for post in posts:
@@ -139,6 +142,9 @@ def update_readme():
 
     if not posts_md:
         posts_md = "No recent posts found.\n"
+
+    # Add feed links for posts
+    posts_md += "\n[RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)\n"
 
     # Update content
     content = re.sub(
