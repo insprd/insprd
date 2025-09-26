@@ -92,8 +92,13 @@ def format_date(date_str: str) -> str:
     try:
         # Handle different date formats
         if 'T' in date_str:
+            # ISO datetime format (e.g., "2025-04-02T00:00:00Z")
             date_obj = datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        elif '-' in date_str and len(date_str) == 10:
+            # ISO date format (e.g., "2025-04-02")
+            date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         else:
+            # Already formatted (e.g., "April 02, 2025")
             date_obj = datetime.strptime(date_str, '%B %d, %Y')
         return date_obj.strftime('%B %d, %Y')
     except:
