@@ -10,46 +10,39 @@ from bs4 import BeautifulSoup
 
 # Configuration
 GITHUB_USERNAME = 'insprd'
-WORK_URL = 'https://legrand.design/work'
+WORK_FEED_URL = 'https://legrand.design/feed.json'
 POSTS_API_URL = 'https://posts.legrand.design/api/v1/accounts/110675830643979741/statuses'
 README_FILE = 'README.md'
 
 def get_work_items() -> List[Dict[str, str]]:
-    """Fetch work items from legrand.design/work"""
+    """Fetch work items from JSON feed"""
     try:
-        response = requests.get(WORK_URL)
+        response = requests.get(WORK_FEED_URL)
         if response.status_code != 200:
-            print(f"Error fetching work items: {response.status_code}")
+            print(f"Error fetching work feed: {response.status_code}")
             return []
 
-        soup = BeautifulSoup(response.content, 'html.parser')
+        feed_data = response.json()
         work_items = []
 
-        # Look for work items in the HTML structure
-        # Based on the HTML structure I observed, work items are in specific containers
-        articles = soup.find_all('a', href=lambda x: x and x.startswith('/work/'))
+        # Parse JSON feed items
+        for item in feed_data.get('items', []):
+            title = item.get('title', '')
+            description = item.get('summary', '')
+            date_published = item.get('date_published', '')
+            url = item.get('url', '')
 
-        for article in articles[:5]:  # Get top 5 work items
-            title_elem = article.find('h2')
-            desc_elem = article.find('span', class_=lambda x: x and 'rt-Text' in x)
-            date_elem = article.find('span', class_=lambda x: x and 'rt-Text' in x and 'rt-r-size-1' in x)
-
-            if title_elem:
-                title = title_elem.get_text(strip=True)
-                description = desc_elem.get_text(strip=True) if desc_elem else ''
-                date = date_elem.get_text(strip=True) if date_elem else ''
-                url = f"https://legrand.design{article.get('href')}"
-
+            if title and url:
                 work_items.append({
                     'title': title,
                     'description': description,
-                    'date': date,
+                    'date': date_published,
                     'url': url
                 })
 
         return work_items
     except Exception as e:
-        print(f"Error parsing work items: {e}")
+        print(f"Error parsing work feed: {e}")
         return []
 
 def get_recent_posts() -> List[Dict[str, str]]:
