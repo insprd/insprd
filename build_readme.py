@@ -118,12 +118,12 @@ def update_readme():
     # Format work items
     work_md = ""
     for item in work_items:
-        work_md += f"**[{item['title']}]({item['url']})**"
+        work_md += f"- **[{item['title']}]({item['url']})**"
         if item['date']:
             work_md += f" - {format_date(item['date'])}"
         work_md += "\n"
         if item['description']:
-            work_md += f"{item['description']}\n"
+            work_md += f"  - {item['description']}\n"
 
     if not work_md:
         work_md = "No work items found.\n"

@@ -11,16 +11,16 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent work
 
 <!-- work starts -->
-**[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
-How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
-**[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
-Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
-**[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
-Today, comparatively few people build software the rest of the world uses.
-**[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
-How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
-**[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
-Bubble is the world’s only full-stack, no-code platform.
+- **[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
+  - How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
+- **[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
+  - Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
+- **[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
+  - Today, comparatively few people build software the rest of the world uses.
+- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
+  - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
+- **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
+  - Bubble is the world’s only full-stack, no-code platform.
 <!-- work ends -->
 
 </td>
@@ -44,4 +44,4 @@ Bubble is the world’s only full-stack, no-code platform.
 
 ---
 
-_This README is automatically updated using GitHub Actions. Last updated: <!-- last_updated starts -->2025-09-26 00:13:11 UTC<!-- last_updated ends -->_
+_This README is automatically updated using GitHub Actions. Last updated: <!-- last_updated starts -->2025-09-26 00:15:31 UTC<!-- last_updated ends -->_
