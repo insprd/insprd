@@ -13,16 +13,16 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 <!-- work starts -->
 - **[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
   - How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
-- **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
-  - Bubble is the world’s only full-stack, no-code platform.
-- **[How we built Gocap: data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
-  - Common Sensing succeeded in bringing a novel smart hardware device from concept to market in a difficult space.
-- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
-  - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
 - **[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
   - Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
 - **[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
   - Today, comparatively few people build software the rest of the world uses.
+- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
+  - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
+- **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
+  - Bubble is the world’s only full-stack, no-code platform.
+- **[How we built Gocap: data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
+  - Common Sensing succeeded in bringing a novel smart hardware device from concept to market in a difficult space.
 <!-- work ends -->
 
 </td>
@@ -44,4 +44,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->September 26, 2025 at 09:33 AM UTC<!-- last_updated ends --> via GitHub Actions
+Updated <!-- last_updated starts -->September 26, 2025 at 09:35 AM UTC<!-- last_updated ends --> via GitHub Actions

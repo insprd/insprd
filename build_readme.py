@@ -40,6 +40,8 @@ def get_work_items() -> List[Dict[str, str]]:
                     'url': url
                 })
 
+        # Sort by date (newest first)
+        work_items.sort(key=lambda x: x['date'], reverse=True)
         return work_items
     except Exception as e:
         print(f"Error parsing work feed: {e}")
