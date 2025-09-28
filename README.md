@@ -17,8 +17,6 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
   - Replit Agent is an AI system that can create and deploy applications from idea to deployment in just minutes, revolutionizing how developers build software.
 - **[Tools for the Next Generation of Software Developers](https://legrand.design/work/replit)** - July 16, 2024
   - Today, comparatively few people build software the rest of the world uses.
-- **[Building UI in full color](https://legrand.design/work/color)** - January 05, 2024
-  - HDR color in interfaces, the hard way
 - **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
   - How we solved the wide color gamut destruction problem in Next.js image processing while retaining all optimization benefits
 - **[Creating the Bubble Editor Environment & Design System](https://legrand.design/work/bubble)** - March 10, 2021
@@ -50,4 +48,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->September 28, 2025 at 02:58 AM UTC<!-- last_updated ends --> via GitHub Actions
+Updated <!-- last_updated starts -->September 28, 2025 at 03:43 AM UTC<!-- last_updated ends --> via GitHub Actions
