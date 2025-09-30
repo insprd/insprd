@@ -11,6 +11,7 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent work
 
 <!-- work starts -->
+
 - **[Augment Agent: AI that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
   - How we solved the context problem that makes most AI coding assistants useless in real codebases, creating an agent that can work with 100k+ file repositories.
 - **[Replit Agent: AI-Powered App Development](https://legrand.design/work/replit-agent)** - September 16, 2024
@@ -25,6 +26,7 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
   - Common Sensing succeeded in bringing a novel smart hardware device from concept to market in a difficult space.
 
 [RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)
+
 <!-- work ends -->
 
 </td>
@@ -33,6 +35,7 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent posts
 
 <!-- posts starts -->
+
 - We outside - June 30, 2025 - [View post](https://legrand.design/posts/we-outside-114773605831608980)
 - Remote agents: available now. - June 05, 2025 - [View post](https://legrand.design/posts/remote-agents-available-now-114631700485834897)
 - You can just fix things - June 01, 2025 - [View post](https://legrand.design/posts/you-can-just-fix-things-114609786711067320)
@@ -42,10 +45,11 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 - Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://legrand.design/posts/theos-overview-of-augment-demoing-the-context-engi-114039861222675691)
 
 [RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)
+
 <!-- posts ends -->
 
 </td>
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->September 30, 2025 at 01:41 PM UTC<!-- last_updated ends --> via GitHub Actions
+Updated <!-- last_updated starts -->September 30, 2025 at 01:41 PM UTC<!-- last_updated ends -->
