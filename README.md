@@ -33,13 +33,13 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 ## Recent posts
 
 <!-- posts starts -->
+- Exciting to see Augment and its context engine featured on the main stage at OpenAI DevDay! - October 30, 2025 - [View post](https://legrand.design/posts/exciting-to-see-augment-and-its-context-engine-fea-115460891139907318)
 - We outside - June 30, 2025 - [View post](https://legrand.design/posts/we-outside-114773605831608980)
 - Remote agents: available now. - June 05, 2025 - [View post](https://legrand.design/posts/remote-agents-available-now-114631700485834897)
 - You can just fix things - June 01, 2025 - [View post](https://legrand.design/posts/you-can-just-fix-things-114609786711067320)
 - This is how I like to interact with AI chat. Not a linearly, but with parallel responses and blended... - May 30, 2025 - [View post](https://legrand.design/posts/this-is-how-i-like-to-interact-with-ai-chat-not-a--114597543461030436)
 - Using MCP in Augment to go from Figma config to production-ready components automatically: - May 12, 2025 - [View post](https://legrand.design/posts/using-mcp-in-augment-to-go-from-figma-config-to-pr-114495579180888218)
 - The only thing more powerful than our IDE agent is ∞ agents. https://augment.new - May 07, 2025 - [View post](https://legrand.design/posts/the-only-thing-more-powerful-than-our-ide-agent-is-114467759412021813)
-- Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://legrand.design/posts/theos-overview-of-augment-demoing-the-context-engi-114039861222675691)
 
 [RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)
 <!-- posts ends -->
@@ -48,4 +48,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->October 30, 2025 at 03:46 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->October 30, 2025 at 04:38 AM UTC<!-- last_updated ends -->
