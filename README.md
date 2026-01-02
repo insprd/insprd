@@ -1,4 +1,4 @@
-I'm Matt Legrand, a founder & product leader. I've built products to scale in developer intelligence, creative technology, digital health, smart hardware, and no-code tools.
+I'm a 2x founder inventing and scaling products in developer intelligence, digital tools, smart hardware, and creative software.
 
 Head of Design [@augmentcode](https://github.com/augmentcode)
 
