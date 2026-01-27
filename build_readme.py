@@ -79,8 +79,8 @@ def get_recent_posts() -> List[Dict[str, str]]:
                     'url': url
                 })
 
-                # Limit to 7 posts
-                if len(posts) >= 7:
+                # Limit to 4 posts
+                if len(posts) >= 4:
                     break
 
         return posts

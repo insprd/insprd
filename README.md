@@ -37,9 +37,6 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 - We outside - June 30, 2025 - [View post](https://legrand.design/posts/we-outside-114773605831608980)
 - Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://legrand.design/posts/theo-s-overview-of-augment-demoing-the-context-en-114039861222675691)
 - Next Edit is now available. While you code, it's scanning your codebase, identifying dependent files, and generating contextual suggestions. - February 20, 2025 - [View post](https://legrand.design/posts/next-edit-is-now-available-while-you-code-it-s-s-114037150860040635)
-- Another feature I'm proud of: Instruct code natively in VSCode - December 03, 2024 - [View post](https://legrand.design/posts/another-feature-i-m-proud-of-instruct-code-native-113590176337271002)
-- We've launched Augment Code, developer intelligence for teams and large codebases. One feature I'm really proud of: Suggested edits. It recommends ... - November 08, 2024 - [View post](https://legrand.design/posts/we-ve-launched-augment-code-developer-intelligenc-113448115194653636)
-- Eric Schmidt gave Augment a shoutout in the "banned" Stanford talk: - August 20, 2024 - [View post](https://legrand.design/posts/eric-schmidt-gave-augment-a-shoutout-in-the-banne-112991629914211756)
 
 [RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)
 <!-- posts ends -->
@@ -48,4 +45,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->January 27, 2026 at 08:54 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->January 27, 2026 at 08:55 AM UTC<!-- last_updated ends -->
