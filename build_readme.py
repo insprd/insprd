@@ -121,8 +121,6 @@ def update_readme():
         if item['date']:
             work_md += f" - {format_date(item['date'])}"
         work_md += "\n"
-        if item['description']:
-            work_md += f"  - {item['description']}\n"
 
     if not work_md:
         work_md = "No work items found.\n"
