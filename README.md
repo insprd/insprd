@@ -48,8 +48,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-<<<<<<< HEAD
-Updated <!-- last_updated starts -->January 27, 2026 at 01:53 PM UTC<!-- last_updated ends -->
-=======
-Updated <!-- last_updated starts -->January 27, 2026 at 01:53 PM UTC<!-- last_updated ends -->
->>>>>>> 091d7a927d661d63a844153fd7973aa0eeb94c97
+Updated <!-- last_updated starts -->January 27, 2026 at 08:54 AM UTC<!-- last_updated ends -->
