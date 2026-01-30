@@ -15,13 +15,13 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 - **[An agent that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
 - **[Predicting your next edit](https://legrand.design/work/next-edit)** - February 19, 2025
 - **[Building a context engine for real codebases](https://legrand.design/work/augment)** - October 15, 2024
-- **[Building software together](https://legrand.design/work/replit-teams)** - July 20, 2024
+- **[Real-time collaboration tools for software teams](https://legrand.design/work/replit-teams)** - July 20, 2024
 - **[Tools for the next generation of software developers](https://legrand.design/work/replit)** - July 16, 2024
 - **[Idea to app, fast](https://legrand.design/work/replit-agent)** - July 16, 2024
-- **[AI for software development](https://legrand.design/work/replit-ai)** - May 20, 2024
+- **[AI-powered development tools for modern workspaces](https://legrand.design/work/replit-ai)** - May 20, 2024
 - **[Better version control, without reinventing git](https://legrand.design/work/replit-projects)** - April 14, 2024
-- **[Figma to Code](https://legrand.design/work/figma-to-code)** - February 14, 2024
-- **[Build anything without code](https://legrand.design/work/bubble)** - March 10, 2021
+- **[Figma to Code transforms designs into React projects](https://legrand.design/work/figma-to-code)** - February 14, 2024
+- **[Build full-stack applications without writing code](https://legrand.design/work/bubble)** - March 10, 2021
 - **[Data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
 
 [RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)
@@ -45,4 +45,4 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->January 29, 2026 at 08:47 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->January 30, 2026 at 08:48 AM UTC<!-- last_updated ends -->
