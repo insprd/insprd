@@ -2,7 +2,7 @@ I'm a 2x founder inventing and scaling products in developer intelligence, digit
 
 Staff product designer @ [GitHub](https://github.com)
 
-Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit) [@bubblegroup](https://github.com/bubblegroup) [@ideo](https://github.com/ideo)
+Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit) [@bubblegroup](https://github.com/bubblegroup)
 
 <table>
 <tr>
