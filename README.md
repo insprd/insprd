@@ -8,7 +8,7 @@ Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.co
 <tr>
 <td width="65%" valign="top">
 
-## Work
+## Initiatives
 
 <!-- work starts -->
 - **[A whiteboard that draws for you](https://legrand.design/work/draw-ai-canvas)** - October 29, 2025
