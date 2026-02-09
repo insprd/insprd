@@ -1,8 +1,8 @@
 I'm a 2x founder inventing and scaling products in developer intelligence, digital tools, smart hardware, and creative software.
 
-Head of Design [@augmentcode](https://github.com/augmentcode)
+Staff product designer @ [GitHub](https://github.com)
 
-Previously [@replit](https://github.com/replit) [@bubblegroup](https://github.com/bubblegroup) [@ideo](https://github.com/ideo)
+Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit) [@bubblegroup](https://github.com/bubblegroup) [@ideo](https://github.com/ideo)
 
 <table>
 <tr>
