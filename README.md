@@ -1,6 +1,6 @@
 I'm a 2x founder inventing and scaling products in developer intelligence, digital tools, smart hardware, and creative software.
 
-Staff product designer @ [GitHub](https://github.com)
+Staff @ [GitHub](https://github.com)
 
 Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit)
 
