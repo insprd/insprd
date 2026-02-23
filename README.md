@@ -11,6 +11,7 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 ## Initiatives
 
 <!-- work starts -->
+- **[LLM-powered ghost text for your terminal](https://legrand.design/work/ghst)** - February 22, 2026
 - **[A whiteboard that draws for you](https://legrand.design/work/draw-ai-canvas)** - October 29, 2025
 - **[An agent that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
 - **[Predicting your next edit](https://legrand.design/work/next-edit)** - February 19, 2025
@@ -45,4 +46,4 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->February 22, 2026 at 08:46 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->February 23, 2026 at 08:49 AM UTC<!-- last_updated ends -->
