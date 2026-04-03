@@ -22,6 +22,7 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 - **[AI-powered development tools for modern workspaces](https://legrand.design/work/replit-ai)** - May 20, 2024
 - **[Better version control, without reinventing git](https://legrand.design/work/replit-projects)** - April 14, 2024
 - **[Figma to Code transforms designs into React projects](https://legrand.design/work/figma-to-code)** - February 14, 2024
+- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
 - **[Build full-stack applications without writing code](https://legrand.design/work/bubble)** - March 10, 2021
 - **[Data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
 
@@ -46,4 +47,4 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->April 02, 2026 at 08:49 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->April 03, 2026 at 08:48 AM UTC<!-- last_updated ends -->
