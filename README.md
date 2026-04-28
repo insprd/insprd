@@ -12,7 +12,7 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 
 <!-- work starts -->
 - **[LLM-powered ghost text for your terminal](https://legrand.design/work/ghst)** - February 22, 2026
-- **[A whiteboard that draws for you](https://legrand.design/work/draw-ai-canvas)** - October 29, 2025
+- **[Sketching with words](https://legrand.design/work/draw-ai-canvas)** - October 29, 2025
 - **[An agent that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
 - **[Predicting your next edit](https://legrand.design/work/next-edit)** - February 19, 2025
 - **[Building a context engine for real codebases](https://legrand.design/work/augment)** - October 15, 2024
@@ -47,4 +47,4 @@ Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://gith
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->April 27, 2026 at 09:17 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->April 28, 2026 at 09:18 AM UTC<!-- last_updated ends -->
