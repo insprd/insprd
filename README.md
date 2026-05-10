@@ -1,8 +1,8 @@
 I'm a 2x founder inventing and scaling products in developer intelligence, digital tools, smart hardware, and creative software.
 
-Staff @ [GitHub](https://github.com)
+Member of Technical Staff @ [@anthropics](https://github.com/anthropics)
 
-Previously [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit)
+Previously [@github](https://github.com/github) [@augmentcode](https://github.com/augmentcode) [@replit](https://github.com/replit)
 
 <table>
 <tr>
