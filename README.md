@@ -47,4 +47,4 @@ Previously [@github](https://github.com/github) [@augmentcode](https://github.co
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->August 20, 2026 at 09:04 AM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->August 21, 2026 at 09:06 AM UTC<!-- last_updated ends -->
