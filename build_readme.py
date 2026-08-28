@@ -9,14 +9,12 @@ from typing import List, Dict
 
 # Configuration
 SITE_URL = "https://mattlegrand.ai"
-# JSON Feed 1.1 of the articles on mattlegrand.ai; rss.xml and atom.xml carry
-# the same items. Every entry is an article at /work/<slug>/. The JSON feed
+# JSON Feed 1.1 of the articles on mattlegrand.ai; rss.xml and atom.xml (the
+# static links under the README's table) carry the same items. Every entry is an article at /work/<slug>/. The JSON feed
 # also carries a custom `_featured: true` on the articles the homepage
 # features, so the README can mirror the homepage's Featured/Recent split.
 # FEED_URL can be overridden for a local test against a dev build.
 FEED_URL = os.environ.get("FEED_URL", f"{SITE_URL}/feed.json")
-RSS_URL = f"{SITE_URL}/rss.xml"
-ATOM_URL = f"{SITE_URL}/atom.xml"
 README_FILE = "README.md"
 # Same cap as the homepage's Recent block.
 RECENT_COUNT = 6
@@ -109,11 +107,7 @@ def update_readme():
     recent = articles[:RECENT_COUNT]
 
     content = replace_section(content, "featured", format_list(featured))
-    content = replace_section(
-        content,
-        "recent",
-        format_list(recent) + f"\n[RSS]({RSS_URL}) • [Atom]({ATOM_URL})\n",
-    )
+    content = replace_section(content, "recent", format_list(recent))
 
     now = datetime.now(timezone.utc).strftime("%B %d, %Y at %I:%M %p UTC")
     content = re.sub(

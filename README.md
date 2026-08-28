@@ -29,12 +29,10 @@ Previously [@github](https://github.com/github) [@augmentcode](https://github.co
 - **[Predicting your next edit](https://mattlegrand.ai/work/next-edit/)** - February 19, 2025
 - **[Building a context engine for real codebases](https://mattlegrand.ai/work/augment/)** - October 15, 2024
 - **[Real-time collaboration tools for software teams](https://mattlegrand.ai/work/replit-teams/)** - July 20, 2024
-
-[RSS](https://mattlegrand.ai/rss.xml) • [Atom](https://mattlegrand.ai/atom.xml)
 <!-- recent ends -->
 
 </td>
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->August 28, 2026 at 02:06 PM UTC<!-- last_updated ends -->
+[RSS](https://mattlegrand.ai/rss.xml) • [Atom](https://mattlegrand.ai/atom.xml) • Updated <!-- last_updated starts -->August 28, 2026 at 02:06 PM UTC<!-- last_updated ends -->
