@@ -6,45 +6,35 @@ Previously [@github](https://github.com/github) [@augmentcode](https://github.co
 
 <table>
 <tr>
-<td width="65%" valign="top">
+<td width="50%" valign="top">
 
-## Initiatives
+## Featured
 
-<!-- work starts -->
-- **[LLM-powered ghost text for your terminal](https://legrand.design/work/ghst)** - February 22, 2026
-- **[Sketching with words](https://legrand.design/work/draw-ai-canvas)** - October 29, 2025
-- **[An agent that actually understands your codebase](https://legrand.design/work/augment-agent)** - April 02, 2025
-- **[Predicting your next edit](https://legrand.design/work/next-edit)** - February 19, 2025
-- **[Building a context engine for real codebases](https://legrand.design/work/augment)** - October 15, 2024
-- **[Real-time collaboration tools for software teams](https://legrand.design/work/replit-teams)** - July 20, 2024
-- **[Tools for the next generation of software developers](https://legrand.design/work/replit)** - July 16, 2024
-- **[Idea to app, fast](https://legrand.design/work/replit-agent)** - July 16, 2024
-- **[AI-powered development tools for modern workspaces](https://legrand.design/work/replit-ai)** - May 20, 2024
-- **[Better version control, without reinventing git](https://legrand.design/work/replit-projects)** - April 14, 2024
-- **[Figma to Code transforms designs into React projects](https://legrand.design/work/figma-to-code)** - February 14, 2024
-- **[Preserving P3 Color Space in Next.js Image Optimization](https://legrand.design/work/nextjs-hdr-images)** - June 20, 2023
-- **[Build full-stack applications without writing code](https://legrand.design/work/bubble)** - March 10, 2021
-- **[Data-driven care for injectable medicine](https://legrand.design/work/gocap)** - April 24, 2019
-
-[RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)
-<!-- work ends -->
+<!-- featured starts -->
+- **[Sketching with words](https://mattlegrand.ai/work/draw-ai-canvas/)** - October 29, 2025
+- **[Tools for the next generation of software developers](https://mattlegrand.ai/work/replit/)** - July 16, 2024
+- **[On Solutionism](https://mattlegrand.ai/work/solutionism-interview/)** - October 31, 2023
+- **[Data-driven care for injectable medicine](https://mattlegrand.ai/work/gocap/)** - April 24, 2019
+<!-- featured ends -->
 
 </td>
-<td width="35%" valign="top">
+<td width="50%" valign="top">
 
-## Recent posts
+## Recent
 
-<!-- posts starts -->
-- Exciting to see Augment and its context engine featured on the main stage at OpenAI DevDay! - October 30, 2025 - [View post](https://legrand.design/posts/exciting-to-see-augment-and-its-context-engine-fea-115460891139907318)
-- We outside - June 30, 2025 - [View post](https://legrand.design/posts/we-outside-114773605831608980)
-- Theo's overview of Augment, demoing the context engine working across large codebases. - February 21, 2025 - [View post](https://legrand.design/posts/theo-s-overview-of-augment-demoing-the-context-en-114039861222675691)
-- Next Edit is now available. While you code, it's scanning your codebase, identifying dependent files, and generating contextual suggestions. - February 20, 2025 - [View post](https://legrand.design/posts/next-edit-is-now-available-while-you-code-it-s-s-114037150860040635)
+<!-- recent starts -->
+- **[Smarter ghost text](https://mattlegrand.ai/work/ghst/)** - February 22, 2026
+- **[Sketching with words](https://mattlegrand.ai/work/draw-ai-canvas/)** - October 29, 2025
+- **[An agent that actually understands your codebase](https://mattlegrand.ai/work/augment-agent/)** - April 02, 2025
+- **[Predicting your next edit](https://mattlegrand.ai/work/next-edit/)** - February 19, 2025
+- **[Building a context engine for real codebases](https://mattlegrand.ai/work/augment/)** - October 15, 2024
+- **[Real-time collaboration tools for software teams](https://mattlegrand.ai/work/replit-teams/)** - July 20, 2024
 
-[RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)
-<!-- posts ends -->
+[RSS](https://mattlegrand.ai/rss.xml) • [Atom](https://mattlegrand.ai/atom.xml)
+<!-- recent ends -->
 
 </td>
 </tr>
 </table>
 
-Updated <!-- last_updated starts -->August 27, 2026 at 07:11 PM UTC<!-- last_updated ends -->
+Updated <!-- last_updated starts -->August 28, 2026 at 02:06 PM UTC<!-- last_updated ends -->

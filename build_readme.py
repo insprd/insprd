@@ -2,95 +2,62 @@
 
 import os
 import re
-import json
 import requests
-from datetime import datetime
-from typing import List, Dict, Any
+from datetime import datetime, timezone
+from typing import List, Dict
 
 
 # Configuration
-GITHUB_USERNAME = "insprd"
-WORK_FEED_URL = "https://legrand.design/feed.json"
-POSTS_FEED_URL = "https://legrand.design/posts/feed.json"
+SITE_URL = "https://mattlegrand.ai"
+# JSON Feed 1.1 of the articles on mattlegrand.ai; rss.xml and atom.xml carry
+# the same items. Every entry is an article at /work/<slug>/. The JSON feed
+# also carries a custom `_featured: true` on the articles the homepage
+# features, so the README can mirror the homepage's Featured/Recent split.
+# FEED_URL can be overridden for a local test against a dev build.
+FEED_URL = os.environ.get("FEED_URL", f"{SITE_URL}/feed.json")
+RSS_URL = f"{SITE_URL}/rss.xml"
+ATOM_URL = f"{SITE_URL}/atom.xml"
 README_FILE = "README.md"
+# Same cap as the homepage's Recent block.
+RECENT_COUNT = 6
 
 
-def get_work_items() -> List[Dict[str, str]]:
-    """Fetch work items from JSON feed"""
+def get_articles() -> List[Dict[str, str]]:
+    """Fetch articles from the JSON feed, newest first"""
     try:
-        response = requests.get(WORK_FEED_URL)
+        response = requests.get(FEED_URL, timeout=30)
         if response.status_code != 200:
-            print(f"Error fetching work feed: {response.status_code}")
+            print(f"Error fetching feed: {response.status_code}")
             return []
 
         feed_data = response.json()
-        work_items = []
+        articles = []
 
-        # Parse JSON feed items
         for item in feed_data.get("items", []):
             title = item.get("title", "")
-            description = item.get("summary", "")
             date_published = item.get("date_published", "")
             url = item.get("url", "")
 
             if title and url:
-                work_items.append(
+                articles.append(
                     {
                         "title": title,
-                        "description": description,
                         "date": date_published,
                         "url": url,
+                        "featured": bool(item.get("_featured")),
                     }
                 )
 
-        # Sort by date (newest first)
-        work_items.sort(key=lambda x: x["date"], reverse=True)
-        return work_items
+        articles.sort(key=lambda x: x["date"], reverse=True)
+        return articles
     except Exception as e:
-        print(f"Error parsing work feed: {e}")
-        return []
-
-
-def get_recent_posts() -> List[Dict[str, str]]:
-    """Fetch recent posts from JSON feed"""
-    try:
-        response = requests.get(POSTS_FEED_URL)
-        if response.status_code != 200:
-            print(f"Error fetching posts feed: {response.status_code}")
-            return []
-
-        feed_data = response.json()
-        posts = []
-
-        # Parse JSON feed items
-        for item in feed_data.get("items", []):
-            title = item.get("title", "")
-            date_published = item.get("date_published", "")
-            url = item.get("url", "")
-
-            content = title
-
-            # Truncate content if too long
-            if len(content) > 150:
-                content = content[:147] + "..."
-
-            if content and url:
-                posts.append({"content": content, "date": date_published, "url": url})
-
-                # Limit to 4 posts
-                if len(posts) >= 4:
-                    break
-
-        return posts
-    except Exception as e:
-        print(f"Error fetching posts: {e}")
+        print(f"Error parsing feed: {e}")
         return []
 
 
 def format_date(date_str: str) -> str:
     """Format ISO date string to readable format"""
     try:
-        # Handle different date formats
         if "T" in date_str:
             # ISO datetime format (e.g., "2025-04-02T00:00:00Z")
             date_obj = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
@@ -101,8 +68,27 @@ def format_date(date_str: str) -> str:
             # Already formatted (e.g., "April 02, 2025")
             date_obj = datetime.strptime(date_str, "%B %d, %Y")
         return date_obj.strftime("%B %d, %Y")
-    except:
+    except Exception:
         return date_str
+
+
+def format_list(articles: List[Dict[str, str]]) -> str:
+    md = ""
+    for item in articles:
+        md += f"- **[{item['title']}]({item['url']})**"
+        if item["date"]:
+            md += f" - {format_date(item['date'])}"
+        md += "\n"
+    return md
+
+
+def replace_section(content: str, name: str, body: str) -> str:
+    return re.sub(
+        rf"<!-- {name} starts -->.*?<!-- {name} ends -->",
+        f"<!-- {name} starts -->\n{body}<!-- {name} ends -->",
+        content,
+        flags=re.DOTALL,
+    )
 
 
 def update_readme():
@@ -110,59 +96,26 @@ def update_readme():
     with open(README_FILE, "r") as f:
         content = f.read()
 
-    # Get data
-    work_items = get_work_items()
-    posts = get_recent_posts()
+    articles = get_articles()
 
-    # Format work items
-    work_md = ""
-    for item in work_items:
-        work_md += f"- **[{item['title']}]({item['url']})**"
-        if item["date"]:
-            work_md += f" - {format_date(item['date'])}"
-        work_md += "\n"
+    # A feed outage must not wipe the lists: keep the README as it is.
+    if not articles:
+        print("No articles fetched; leaving README.md unchanged.")
+        return
 
-    if not work_md:
-        work_md = "No work items found.\n"
+    # Mirror the homepage: a curated Featured block and an auto Recent block
+    # (newest first, capped). An article can appear in both.
+    featured = [a for a in articles if a["featured"]]
+    recent = articles[:RECENT_COUNT]
 
-    # Add feed links for work
-    work_md += (
-        "\n[RSS](https://legrand.design/rss) • [Atom](https://legrand.design/atom)\n"
-    )
-
-    # Format posts
-    posts_md = ""
-    for post in posts:
-        posts_md += f"- {post['content']}"
-        if post["date"]:
-            posts_md += f" - {format_date(post['date'])}"
-        if post["url"]:
-            posts_md += f" - [View post]({post['url']})"
-        posts_md += "\n"
-
-    if not posts_md:
-        posts_md = "No recent posts found.\n"
-
-    # Add feed links for posts
-    posts_md += "\n[RSS](https://legrand.design/posts/rss) • [Atom](https://legrand.design/posts/atom)\n"
-
-    # Update content
-    content = re.sub(
-        r"<!-- work starts -->.*?<!-- work ends -->",
-        f"<!-- work starts -->\n{work_md}<!-- work ends -->",
+    content = replace_section(content, "featured", format_list(featured))
+    content = replace_section(
         content,
-        flags=re.DOTALL,
+        "recent",
+        format_list(recent) + f"\n[RSS]({RSS_URL}) • [Atom]({ATOM_URL})\n",
     )
 
-    content = re.sub(
-        r"<!-- posts starts -->.*?<!-- posts ends -->",
-        f"<!-- posts starts -->\n{posts_md}<!-- posts ends -->",
-        content,
-        flags=re.DOTALL,
-    )
-
-    # Update last updated timestamp
-    now = datetime.now().strftime("%B %d, %Y at %I:%M %p UTC")
+    now = datetime.now(timezone.utc).strftime("%B %d, %Y at %I:%M %p UTC")
     content = re.sub(
         r"<!-- last_updated starts -->.*?<!-- last_updated ends -->",
         f"<!-- last_updated starts -->{now}<!-- last_updated ends -->",
@@ -170,7 +123,6 @@ def update_readme():
         flags=re.DOTALL,
     )
 
-    # Write updated content
     with open(README_FILE, "w") as f:
         f.write(content)
 
