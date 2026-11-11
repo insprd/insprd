@@ -35,4 +35,4 @@ Previously [@github](https://github.com/github) [@augmentcode](https://github.co
 </tr>
 </table>
 
-[RSS](https://mattlegrand.ai/rss.xml) • [Atom](https://mattlegrand.ai/atom.xml) • Updated <!-- last_updated starts -->November 10, 2026 at 04:30 PM UTC<!-- last_updated ends -->
+[RSS](https://mattlegrand.ai/rss.xml) • [Atom](https://mattlegrand.ai/atom.xml) • Updated <!-- last_updated starts -->November 11, 2026 at 04:26 PM UTC<!-- last_updated ends -->
